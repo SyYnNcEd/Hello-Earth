@@ -1,0 +1,55 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+h1{
+  color: green;
+  font-family:'Times New Roman', 'Times New Roman', Times, serif;
+  font-size: 52px;
+}
+
+/* ID example*/
+#idtest{
+  color:purple;
+  text-align:center;
+}
+/* Class example*/
+.center{
+  text-align:center;
+}
+
+ul{
+  list-style-type: none; /* Removes the bullet point*/
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  background-color: #f1f1f1;
+}
+
+li a {
+  display:block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+li {
+  float: left;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.active{
+  background-color: #04AA6D;
+  color: white;
+}
